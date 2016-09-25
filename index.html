@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tortoise JS</title>
+
+  <!-- stylesheets -->
+  <link href="./src/css/stylesheets/crt.css" rel="stylesheet" type="text/css">
+  <link href="./src/css/stylesheets/style.css" rel="stylesheet" type="text/css">
+
+  <!-- scripts -->
+  <script src="./src/tortoise.js"></script>
+</head>
+
+<body>
+  <input type="checkbox" id="switch">
+  <label for="switch" class="switch-label">Turn </label>
+  <div class="container">
+    <div class="screen">
+      <svg xmlns="http://www.w3.org/2000/svg" id="canvas" align="xMidYMid" viewBox="0 0 400 400">
+        <g id="slate" transform="translate(200,100) scale(0.5,-0.5)">
+          <path id="turtle" d="M 00 20 L 10 0 L -10 0 z" fill="green" fill-opacity="1"
+            stroke="green" stroke-opacity="0.8" stroke-width="1"/>
+        </g>
+      </svg>
+      <div id="prog-div">
+        <textarea id="program" rows="20"> lalalala</textarea>
+        <a id="run" href="#">Run</a>
+      </div>
+    </div>
+    <div class="overlay">Logo Programming Language</div>
+  </div>
+</body>
+
+</html>

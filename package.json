@@ -1,0 +1,26 @@
+{
+  "name": "tortoisejs",
+  "version": "1.0.0",
+  "description": "A lightweight Logo interpreter written in JS based on the Berkley LOGO Specs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityavkk/tortoiseJS.git"
+  },
+  "author": "Aditya K.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityavkk/tortoiseJS/issues"
+  },
+  "homepage": "https://github.com/adityavkk/tortoiseJS#readme",
+  "dependencies": {
+    "p5": "^0.5.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

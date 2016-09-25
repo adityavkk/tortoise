@@ -1,0 +1,46 @@
+@font-face {
+  font-family: PrintChar21;
+  src: url("./fonts/PrintChar21.ttf");
+}
+/* line 6, ../sass/style.scss */
+#prog-div {
+  position: absolute;
+  top: 550px;
+  width: 97%;
+  height: 325px;
+  padding: 10px;
+  margin: 15px;
+}
+
+/* line 15, ../sass/style.scss */
+#program {
+  font-family: PrintChar21;
+  background: #121010;
+  position: relative;
+  border: none;
+  color: lime;
+  font-size: 1em;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 27, ../sass/style.scss */
+#run {
+  position: absolute;
+  top: 72%;
+  left: 94%;
+}
+
+/* line 33, ../sass/style.scss */
+a, a:visited, a:hover, a:active {
+  color: lime;
+}
+
+/* line 37, ../sass/style.scss */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

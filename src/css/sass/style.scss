@@ -1,0 +1,42 @@
+$screen-background:#121010;
+@font-face {
+	font-family: PrintChar21;
+	src: url('./fonts/PrintChar21.ttf');
+}
+#prog-div {
+  position: absolute;
+  top: 550px;
+  width:97%;
+  height:325px;
+ padding: 10px;
+ margin:15px;
+}
+
+#program {
+ font-family: PrintChar21;
+ background:$screen-background;
+ position:relative;
+ border:none;
+ color: rgb(0, 255, 0);
+ font-size: 1em;
+ overflow:scroll;
+ width:100%;
+ height:100%;
+}
+
+#run {
+  position:absolute;
+  top: 72%;
+  left: 94%;
+}
+
+a, a:visited, a:hover, a:active {
+  color: rgb(0, 255, 0);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
