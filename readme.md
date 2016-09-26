@@ -162,7 +162,7 @@ Make "count 0
 CS
 Repeat :layers [
   Make "segs :count
-  SetPenColour SUM :count 1
+  SetPenColor SUM :count 3
   Repeat 6 [
     Repeat :segs [
       Repeat 2 [ Forward 20 Right 60 ]
