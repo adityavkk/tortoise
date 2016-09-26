@@ -65,67 +65,67 @@ body {
 
 @keyframes flicker {
   0% {
-    opacity: 0.70372;
+    opacity: 0.29613;
   }
   5% {
-    opacity: 0.97367;
+    opacity: 0.48426;
   }
   10% {
-    opacity: 0.6385;
+    opacity: 0.08642;
   }
   15% {
-    opacity: 0.13415;
+    opacity: 0.42567;
   }
   20% {
-    opacity: 0.08407;
+    opacity: 0.81437;
   }
   25% {
-    opacity: 0.65831;
+    opacity: 0.80779;
   }
   30% {
-    opacity: 0.41527;
+    opacity: 0.37131;
   }
   35% {
-    opacity: 0.23378;
+    opacity: 0.0148;
   }
   40% {
-    opacity: 0.07438;
+    opacity: 0.79367;
   }
   45% {
-    opacity: 0.13091;
+    opacity: 0.92525;
   }
   50% {
-    opacity: 0.02497;
+    opacity: 0.61081;
   }
   55% {
-    opacity: 0.57841;
+    opacity: 0.56185;
   }
   60% {
-    opacity: 0.21247;
+    opacity: 0.09288;
   }
   65% {
-    opacity: 0.41996;
+    opacity: 0.56928;
   }
   70% {
-    opacity: 0.38789;
+    opacity: 0.79379;
   }
   75% {
-    opacity: 0.56494;
+    opacity: 0.2557;
   }
   80% {
-    opacity: 0.95925;
+    opacity: 0.83551;
   }
   85% {
-    opacity: 0.18007;
+    opacity: 0.61704;
   }
   90% {
-    opacity: 0.16995;
+    opacity: 0.28501;
   }
   95% {
-    opacity: 0.19299;
+    opacity: 0.67421;
   }
   100% {
-    opacity: 0.13579;
+    opacity: 0.90423;
   }
 }
 /* line 73, ../sass/crt.scss */
@@ -269,6 +269,6 @@ body {
 
 /* line 212, ../sass/crt.scss */
 #switch:checked ~ .container .overlay {
-  animation: overlay-anim 20s linear;
+  animation: overlay-anim 30s linear;
   animation-fill-mode: forwards;
 }
