@@ -25,7 +25,7 @@ logo
     path = null;
   })
   .on('path.remove_all', function() {
-    var paths = document.getElementsByClassName('trail');
+    const paths = document.getElementsByClassName('trail');
     while (paths.length) {
       paths[0].remove();
     }
