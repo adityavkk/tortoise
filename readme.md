@@ -1,6 +1,7 @@
 #Tortoise JS
 A small LOGO interpreter written in JS.
 View [live demo] (https://adityavkk.github.io/tortoiseJS/) 
+
 ##Logo
 Logo is a dialect of LISP developed in 1967. It was designed to be an
 educational language with a low barrier of entry but an extremely high
@@ -188,3 +189,5 @@ Repeat :layers [
 
 ##Reference
 Specs based on the [Berkley LOGO] (https://people.eecs.berkeley.edu/~bh/logo.html)
+
+Based on [LOGO Grammar] (http://cs.brown.edu/~spr/designbook/assign/logo/logo98.pdf)
