@@ -1,5 +1,5 @@
-#Tortoise JS
-A small LOGO interpreter written in JS.
+#Tortoise
+A small LOGO interpreter
 View [live demo] (https://adityavkk.github.io/tortoiseJS/) 
 
 ##Logo
