@@ -1,8 +1,8 @@
-#Tortoise
+# Tortoise
 A small LOGO interpreter
 View [live demo] (https://adityavkk.github.io/tortoiseJS/) 
 
-##Logo
+## Logo
 Logo is a dialect of LISP developed in 1967. It was designed to be an
 educational language with a low barrier of entry but an extremely high
 ceiling. 
@@ -10,7 +10,7 @@ ceiling.
 It's most-known feature is the turtle, an on-screen "cursor" that shows output from commands for movement and small retractable pen, together producing line graphics.
 <!-- ![About_Logo](http://i.imgur.com/5hF3eXg.gif) -->
 <!-- ![TortoiseJS](http://i.imgur.com/Mh8LzDi.png) -->
-##Usage
+## Usage
 Available commands:
 ```
 FORWARD (FW)
@@ -39,8 +39,8 @@ REMAINDER a b
 MINUS a
 ```
 
-##Some Example Sketches
-###Star
+## Some Example Sketches
+### Star
 ```
 TO star
   repeat 5 [ fd 100 rt 144 ]
@@ -48,7 +48,7 @@ END
 clearscreen
 star
 ```
-###Square Spiral
+### Square Spiral
 ```
 make "squarespiral 7
 cs
@@ -61,12 +61,12 @@ repeat 45 [
 ]
 ```
 
-###Circle
+### Circle
 ```
 cs
 repeat 72 [ forward 5 left 5 ]
 ```
-###Flower
+### Flower
 ```
 pd
 setpencolor 9
@@ -77,7 +77,7 @@ forward 200
 right 180]
 ```
 
-###Sunflower
+### Sunflower
 ```
 cs
 repeat 12 [ setpencolor 2 
@@ -90,7 +90,7 @@ repeat 12 [ setpencolor 2
 ]
 ```
 
-###Mandala
+### Mandala
 ```
 pu
 left 90
@@ -108,7 +108,7 @@ repeat 8 [
 ]
 ```
 
-###Mandala 2
+### Mandala 2
 ```
 Make "red 4
 Make "blue 2
@@ -120,7 +120,7 @@ repeat 45 [ fd 7 left -4 pu fd 7 left -4 pd ]
 right 30 ]
 ```
 
-###Square Flower
+### Square Flower
 ```
 cs
 make "magenta 6
@@ -133,7 +133,7 @@ right 90
 right 4
 ]
 ```
-###Repeating Squares
+### Repeating Squares
 ```
 to figure
 	right 45
@@ -144,7 +144,7 @@ penup forward 50 pendown
 repeat 72 [figure left 95 forward 5 right 90]
 ```
 
-###Hypercube
+### Hypercube
 ```
 pd
 repeat 8 [
@@ -156,7 +156,7 @@ repeat 8 [
     lt 45
 ]
 ```
-###Hexagonal Grid
+### Hexagonal Grid
 ```
 ; number of layers
 Make "layers 6
@@ -179,7 +179,7 @@ Repeat :layers [
   Make "count SUM :count 1
 ]
 ```
-##To Do
+## To Do
 - Write specs
 - Add lexical scoping and parameters to functions
 - Better error handling and reporting
@@ -187,7 +187,7 @@ Repeat :layers [
 - Add feature to watch sketches being drawn
 - Impliment conditionals and for loops
 
-##Reference
+## Reference
 Specs based on the [Berkley LOGO] (https://people.eecs.berkeley.edu/~bh/logo.html)
 
 Based on [LOGO Grammar] (http://cs.brown.edu/~spr/designbook/assign/logo/logo98.pdf)
