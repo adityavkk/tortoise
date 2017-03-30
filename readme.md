@@ -1,6 +1,6 @@
 # Tortoise
 A small LOGO interpreter
-View [live demo] (https://adityavkk.github.io/tortoiseJS/) 
+View [live demo](https://adityavkk.github.io/tortoise/) 
 
 ## Logo
 Logo is a dialect of LISP developed in 1967. It was designed to be an
